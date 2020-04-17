@@ -72,7 +72,7 @@ class Activities extends React.Component {
                 <ActivityItem background={puppy_training} title="husky puppy training" href="/activities/husky_puppy_training"></ActivityItem>
               </Col>
               <Col xs={12}  sm={6} md={6} lg={4}>
-                <ActivityItem background={husky_puppies} title="Puppy Café" href="/activities/husky_cafe"></ActivityItem>
+                <ActivityItem background={husky_puppies} title="husky Puppy Café" href="/activities/husky_cafe"></ActivityItem>
               </Col>
             </Row>
           </div>

@@ -34,7 +34,7 @@ class ActivityInfo extends React.Component {
             }}>
             <div className="d-flex align-items-center justify-content-center" style={{height: "50vh"}}>
                 <div className="d-flex flex-column align-items-center">
-                <h1 className=" cover-image-top text-center text-wrap" style={{fontWeight: "800"}}>
+                <h1 className="text-capitalize cover-image-top text-center text-wrap" style={{fontWeight: "800"}}>
                   {caption}
                 </h1>
                 <button className="mt-4 btn btn-lg btn-secondary">Book now</button>

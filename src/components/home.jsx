@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import Header from './header';
 import Footer from './footer';
 import ReviewElement from './reviewElement';
+import { Link } from 'react-router-dom';
+
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -58,12 +60,12 @@ class Home extends React.Component {
             <div className="d-flex align-items-center justify-content-center" style={{height: "60vh"}}>
               <div className="d-flex flex-column">
                 <h1 className="text-center mx-auto">Find your next adventure</h1>
-                <a
+                <Link
                   className="mt-4 mx-auto btn btn-lg btn-secondary text-capitalize"
-                  href="/booking"
+                  to="/activities"
                 >
                   book now
-                </a>
+                </Link>
                 <Carousel className="mt-4">
                   <Carousel.Item className="text-black">
                     <Carousel.Caption>
