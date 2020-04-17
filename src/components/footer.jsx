@@ -4,6 +4,8 @@ import PropTypes from 'prop-types'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faFacebook, faYoutube, faTripadvisor} from '@fortawesome/free-brands-svg-icons'
 
+import InfoElement from './infoElement';
+
 class Footer extends React.Component {
   render () {
     return (
@@ -13,8 +15,8 @@ class Footer extends React.Component {
           <div>Imaginary Road 19</div>
           <div>4567 Somewhere</div>
           <div>City, Country</div>
-          <div>Phone: <u>+47 999 99 999</u> </div>
-          <div>Email: <u>mail@arcticadventure.com</u></div>
+          <InfoElement left="Phone:" right={<u>+47 999 99 999</u>}/>
+          <InfoElement left="Email:" right={<u>mail@arcticadventure.com</u>}/>
         </div>
         <div className="d-flex flex-column align-items-center">
           <h4 className="mb-2 ">Social</h4>

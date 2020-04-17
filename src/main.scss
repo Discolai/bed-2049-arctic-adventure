@@ -66,6 +66,7 @@ body  {
     padding-top: 0.3em;
   }
   a {
+    font-size: 1.3em;
     padding-top: 0.3em;
     text-decoration: none;
     color: inherit;
@@ -93,4 +94,12 @@ body  {
 
 .activity-info  {
   margin-top: $spacer;
+}
+
+.sel-left {
+  float: left;
+}
+
+.sel-right  {
+  float: right;
 }
