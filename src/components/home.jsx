@@ -48,10 +48,11 @@ class Home extends React.Component {
         <div className="bg-white">
           <Header></Header>
         </div>
-        <Container fluid="true">
+        <Container className="my-4" fluid="true">
           <div className="text-white" style={{
-              backgroundImage: `url(${background})`,
+              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${background})`,
               backgroundSize: "cover",
+              backgroundPosition: "bottom",
               height: "70vh",
             }}>
             <div className="d-flex align-items-center justify-content-center" style={{height: "60vh"}}>
@@ -66,7 +67,7 @@ class Home extends React.Component {
                 <Carousel className="mt-4">
                   <Carousel.Item className="text-black">
                     <Carousel.Caption>
-                      <i>"Dånt nåw inglish, men fikk ta med rulatoren på tur."</i>
+                      <p><i>"Dånt nåw inglish, men fikk ta med rulatoren på tur."</i></p>
                       <small className="text-white ">
                         Hulder (82)
                       </small>
@@ -75,7 +76,7 @@ class Home extends React.Component {
 
                   <Carousel.Item className="text-black">
                     <Carousel.Caption>
-                      <i>"Great adventures even for us with walking sticks"</i>
+                      <p><i>"Great adventures even for us with walking sticks"</i></p>
                       <small className="text-white ">
                         Åse (60)
                       </small>
@@ -84,7 +85,7 @@ class Home extends React.Component {
 
                   <Carousel.Item className="text-black">
                     <Carousel.Caption>
-                      <i>"How dare you provide such nice value"</i>
+                      <p><i>"How dare you provide such nice value"</i></p>
                       <small className="text-white ">
                         Gretha (16)
                       </small>
@@ -94,7 +95,7 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
-          <div className="p-4">
+          <Container>
             <div className="d-flex">
               <div>
                 <h2>Experience Tromsø – The local way</h2>
@@ -128,7 +129,7 @@ class Home extends React.Component {
                 </Row>
               </div>
             </div>
-          </div>
+          </Container>
         </Container>
         <Footer></Footer>
       </div>

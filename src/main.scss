@@ -25,7 +25,6 @@ body  {
 .booking-image  {
   filter: brightness(70%);
   transition: .5s ease;
-
   height: 180px;
   width: 300px;
 
@@ -42,12 +41,12 @@ body  {
 
   @include media-breakpoint-up(lg) {
     height: 180px;
-    width: 320px;
+    width: 300px;
   }
 
   @include media-breakpoint-up(xl) {
-    height: 230px;
-    width: 400px;
+    height: 200px;
+    width: 320px;
   }
 }
 
@@ -73,14 +72,15 @@ body  {
   }
 }
 
+.cover-image  {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
 .carousel{
   height: 200px;
   max-width: 100vw;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    // filter: invert(100%);
 }
 
 .carousel-inner{
@@ -89,10 +89,8 @@ body  {
 
 .carousel-item{
   height: 100%;
-  // background: white;
 }
 
-.carousel-caption{
-  // color: black;
-  // top: 50%;
+.activity-info  {
+  margin-top: $spacer;
 }
