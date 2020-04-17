@@ -1,0 +1,98 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,800);
+
+body  {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.booking-container  {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: $spacer;
+
+}
+
+.booking-centered-text {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.booking-image  {
+  filter: brightness(70%);
+  transition: .5s ease;
+
+  height: 180px;
+  width: 300px;
+
+
+  @include media-breakpoint-up(sm) {
+    height: 130px;
+    width: 250px;
+  }
+
+  @include media-breakpoint-up(md) {
+    height: 180px;
+    width: 300px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 180px;
+    width: 320px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    height: 230px;
+    width: 400px;
+  }
+}
+
+.booking-container:hover .booking-image {
+  filter: brightness(100%);
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.footer {
+  color: darkgrey;
+  background: $dark;
+  padding: $spacer;
+  div {
+    padding-top: 0.3em;
+  }
+  a {
+    padding-top: 0.3em;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.carousel{
+  height: 200px;
+  max-width: 100vw;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    // filter: invert(100%);
+}
+
+.carousel-inner{
+  height: 100%;
+}
+
+.carousel-item{
+  height: 100%;
+  // background: white;
+}
+
+.carousel-caption{
+  // color: black;
+  // top: 50%;
+}
