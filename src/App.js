@@ -16,6 +16,7 @@ import HuskyPuppyTraining from './components/activities/info/huskyPuppyTraining'
 
 import Blog from './components/blog/blog';
 import TravelersGuideToTheAurora from './components/blog/travelersGuideToTheAurora';
+import TheNorwegianWay from './components/blog/theNorwegianWay';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
 
         <Route exact path="/blog" component={Blog} switch/>
         <Route exact path="/blog/travelers_guide_to_the_aurora" component={TravelersGuideToTheAurora} switch/>
+        <Route exact path="/blog/the_norwegian_way" component={TheNorwegianWay} switch/>
 
       </Switch>
     </Router>

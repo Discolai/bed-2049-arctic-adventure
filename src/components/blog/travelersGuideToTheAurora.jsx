@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import {Link} from 'react-router-dom';
 
 import Header from '../header';
 import Footer from '../footer';
@@ -12,6 +13,9 @@ import blog2_aperture_example from "../../img/blog2_aperture_example.jpg"
 import blog2_iso from "../../img/blog2_iso.jpg"
 import blog2_shutter from "../../img/blog2_shutter.jpg"
 
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faUser, faClock} from '@fortawesome/free-solid-svg-icons'
+
 const TravelersGuideToTheAurora = (props) => {
   return (
     <div className="bg-light">
@@ -20,8 +24,11 @@ const TravelersGuideToTheAurora = (props) => {
       </div>
       <Container>
         <div className="d-flex flex-column">
-          <h1>Travelers guide to the aurora</h1>
-          <small>Kevin Jensen March 20, 2020</small>
+          <div className="text-center">
+            <h1>Travelers guide to the aurora</h1>
+            <small><FontAwesomeIcon icon={faUser}/> Kevin Jensen</small>
+            <small className="ml-2"><FontAwesomeIcon icon={faClock}/> March 20, 2020</small>
+          </div>
           <img className="my-4" src={blog2_aurora}></img>
           <div className="blog-text text-left">
             <h2>What are polar lights?</h2>
@@ -246,7 +253,10 @@ const TravelersGuideToTheAurora = (props) => {
               </form>
             </div>
 
-
+            <div>
+              <div>Previous post</div>
+              <Link className="text-secondary" to="/blog/the_norwegian_way"><h4 className="text-bold">The Norwegian way</h4 ></Link>
+            </div>
           </div>
 
         </div>
