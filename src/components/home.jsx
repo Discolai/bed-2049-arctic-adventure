@@ -138,16 +138,4 @@ class Home extends React.Component {
     );
   }
 }
-// {
-//   message: "Great adventures even for us with walking sticks",
-//   stars: 5,
-//   name: "Åse",
-//   age: 60
-// },
-// {
-//   message: "How dare you provide such nice value",
-//   stars: 4,
-//   name: "Gretha",
-//   age: 16
-// },
 export default Home;

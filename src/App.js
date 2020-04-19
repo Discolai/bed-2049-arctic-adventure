@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
 
 import Home from './components/home';
+
 import Activities from './components/activities/activities';
 import Aurora from './components/activities/info/aurora';
 import AuroraCamp from './components/activities/info/auroraCamp';
@@ -12,6 +13,9 @@ import HuskyCafe from './components/activities/info/huskyCafe';
 import Kayaking from './components/activities/info/kayaking';
 import MidnightSunHike from './components/activities/info/midnightSunHike';
 import HuskyPuppyTraining from './components/activities/info/huskyPuppyTraining';
+
+import Blog from './components/blog/blog';
+import TravelersGuideToTheAurora from './components/blog/travelersGuideToTheAurora';
 
 function App() {
   return (
@@ -27,6 +31,10 @@ function App() {
         <Route exact path="/activities/husky_cafe" component={HuskyCafe} switch/>
         <Route exact path="/activities/midnight_sun_hike" component={MidnightSunHike} switch/>
         <Route exact path="/activities/husky_puppy_training" component={HuskyPuppyTraining} switch/>
+
+        <Route exact path="/blog" component={Blog} switch/>
+        <Route exact path="/blog/travelers_guide_to_the_aurora" component={TravelersGuideToTheAurora} switch/>
+
       </Switch>
     </Router>
   );

@@ -20,6 +20,9 @@ class Header extends React.Component {
           <Link className="nav-link" to="/activities">
             Activities
           </Link>
+          <Link className="nav-link" to="/blog">
+            Blog
+          </Link>
         </Nav>
       </Navbar>
     );
