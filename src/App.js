@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
+import pjson from '../package.json';
 
 import Home from './components/home';
 
@@ -20,7 +21,7 @@ import TheNorwegianWay from './components/blog/theNorwegianWay';
 
 function App() {
   return (
-    <Router>
+    <Router basename={pjson.homepage}>
       <Switch>
         <Route exact path="/" component={Home} switch/>
         <Route exact path="/activities" component={Activities} switch/>
