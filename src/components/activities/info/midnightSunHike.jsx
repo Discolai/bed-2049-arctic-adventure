@@ -9,7 +9,7 @@ const MidnightSunHike = (props) => {
   return (
     <ActivityInfo
       background={midnight_sun}
-      caption="midnight sun husky hike"
+      caption="midnight sun camping and husky hike"
       title="Explore the summer nights in Tromsø and go on a wonderful husky hike"
       included="Transportation, all meals and camping equipment"
       duration="17 hours"
@@ -17,14 +17,14 @@ const MidnightSunHike = (props) => {
       pricing="Adults: 2199 NOK, Children: 899 NOK"
       bring="Hiking boots, fitting clothing and overnight stay equipment"
     >
-      <p className="activity-info">
-        Please
+      <p>
+        We meet up at our centre where we will distribute camping equipment and assign dogs.
+        Then we are off to one of the surrounding mountains. We set up camp at the top in order
+        to get the best view of the midnight sun.
       </p>
-      <p className="activity-info">
-        fill
-      </p>
-      <p className="activity-info">
-        me
+      <p>
+        After setting up camp fire up a campfire to keep ourselves warm while relax with
+        the dogs in the midnight sun.
       </p>
     </ActivityInfo>
   )
