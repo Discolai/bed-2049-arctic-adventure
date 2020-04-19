@@ -17,14 +17,18 @@ const HuskyOvernight = (props) => {
       pricing="Adults: 5699 NOK, Children: 3499 NOK"
       bring="thermal underwear and socks, gloves/mittens, hat and additional camping equipment"
     >
-      <p className="activity-info">
-        Please
+      <p>
+        Enjoy a two day sledding experience with a refreshing overnight stay in the
+        Norwegian winter wilderness.
       </p>
-      <p className="activity-info">
-        fill
+      <p>
+        Before we set out, you will be given a full guide on dog sledding and how to manage
+        "your" band of huskies. Then we will set out for about 6-8 hours of sledding with
+        regular breaks before we set camp for the night.
       </p>
-      <p className="activity-info">
-        me
+      <p>
+        Upon return to our center you will be greeted with Finnbiff, a traditional Sami
+        dish made from reindeer meat, but we offer vegetarian options upon request.
       </p>
     </ActivityInfo>
   )
