@@ -31,6 +31,7 @@ function App() {
         <Route exact path="/activities/husky_adventure" component={HuskyAdventure} switch/>
         <Route exact path="/activities/husky_overnight" component={HuskyOvernight} switch/>
         <Route exact path="/activities/husky_cafe" component={HuskyCafe} switch/>
+        <Route exact path="/activities/kayaking" component={Kayaking} switch/>
         <Route exact path="/activities/midnight_sun_hike" component={MidnightSunHike} switch/>
         <Route exact path="/activities/husky_puppy_training" component={HuskyPuppyTraining} switch/>
 
