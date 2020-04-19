@@ -9,6 +9,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import husky_puppies from '../../../img/husky_puppies.jpg';
+import puppies_snow from '../../../img/puppies_snow.jpg';
 
 const HuskyCafe = (props) => {
   return (
@@ -29,16 +30,21 @@ const HuskyCafe = (props) => {
           </div>
         </div>
         <Container  className="mb-4">
-          <h2>Relax in our cafe with some coffee or cake</h2>
-          <p className="activity-info">
-            Please
-          </p>
-          <p className="activity-info">
-            fill
-          </p>
-          <p className="activity-info">
-            me
-          </p>
+          <Row>
+            <Col className="activity-container" sm={12} md={7}>
+              <h2>Relax in our cafe while snuggling with husky puppies</h2>
+              <div className="activity-info">
+                <p>
+                  Visit our husky pen and pet their puppies for free! They love
+                  meeting people and cannot wait to make new friends.
+                  We serve a wide range of pastry, coffe, waffles and sausages.
+                </p>
+              </div>
+            </Col>
+            <Col className="activity-container" sm={12} md={5}>
+              <img src={puppies_snow}/>
+            </Col>
+          </Row>
         </Container>
       </Container>
       <Footer></Footer>
