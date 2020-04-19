@@ -92,9 +92,19 @@ body  {
   height: 100%;
 }
 
-.activity-info  {
-  margin-top: $spacer;
+.activity-container {
+  h2  {
+    margin-bottom: 2 * $spacer;
+  }
+
+  .activity-info > *  {
+    margin-bottom: 2 * $spacer;
+  }
+
+
+
 }
+
 
 .sel-left {
   float: left;

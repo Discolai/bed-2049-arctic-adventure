@@ -41,11 +41,13 @@ class ActivityInfo extends React.Component {
               </div>
             </div>
           </div>
-          <Container  className="mb-4">
+          <Container className="mb-4">
             <Row>
-              <Col sm={12} md={8}>
+              <Col className="activity-container" sm={12} md={8}>
                 <h2>{title}</h2>
-                {children}
+                <div className="activity-info">
+                  {children}
+                </div>
               </Col>
               <Col sm={12} md={4}>
                 <ActivitySidebar

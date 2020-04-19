@@ -42,7 +42,7 @@ class Activities extends React.Component {
                 <ActivityItem background={aurora} title="chase the aurora" href="/activities/aurora"></ActivityItem>
               </Col>
               <Col xs={12}  sm={6} md={6} lg={4}>
-                <ActivityItem background={bonfire} title="Aurora camp and dog sledding" href="/activities/aurora_camp"></ActivityItem>
+                <ActivityItem background={bonfire} title="Lavvo camp and dog sledding" href="/activities/aurora_camp"></ActivityItem>
               </Col>
               <Col xs={12}  sm={6} md={6} lg={4}>
                 <ActivityItem background={sledding} title="Husky dog sledding" href="/activities/sledding"></ActivityItem>
