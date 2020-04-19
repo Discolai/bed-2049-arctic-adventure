@@ -23,7 +23,7 @@ class ActivitySidebar extends React.Component {
         {
           departure ? (
             <p>
-              <strong>Departure: </strong>{departure}
+              <strong>Departure and return: </strong>{departure}
             </p>
           ) : null
         }
