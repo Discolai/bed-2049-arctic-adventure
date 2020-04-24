@@ -100,7 +100,7 @@ class Home extends React.Component {
           <Container>
             <div className="d-flex">
               <div>
-                <h2>Experience Tromsø – The local way</h2>
+                <h2 className="mb-4">Experience Tromsø – The local way</h2>
                 <Row className="align-items-center">
                   <Col xs={12} sm={6} md={6} style={{maxWidth: "300px", maxHeight: "200px"}}>
                     <img src={homecooking} style={{maxWidth: "100%", maxHeight: "100%"}}></img>
